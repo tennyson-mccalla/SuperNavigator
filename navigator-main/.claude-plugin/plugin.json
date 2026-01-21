@@ -1,0 +1,53 @@
+{
+  "name": "navigator",
+  "version": "5.2.0",
+  "description": "Finish What You Start - Sessions that last, AI that learns, Features that ship. Context engineering + Theory of Mind + Loop Mode. Philosophy, Metrics, Education, Skills, Agents, and Multi-Claude Workflows. Features ToM-based verification checkpoints, bilateral modeling (nav-profile), quality detection (nav-diagnose), enhanced context markers, and Loop Mode with structured completion signals. 92% token reduction with proven strategies. Based on Riedl & Weidmann 2025 Human-AI Synergy research.",
+  "author": {
+    "name": "Aleks Petrov",
+    "email": "aleks@example.com",
+    "url": "https://github.com/alekspetrov"
+  },
+  "homepage": "https://github.com/alekspetrov/navigator",
+  "repository": "https://github.com/alekspetrov/navigator",
+  "license": "MIT",
+  "keywords": [
+    "documentation",
+    "context-management",
+    "token-optimization",
+    "knowledge-management",
+    "productivity",
+    "skills",
+    "agents",
+    "navigator",
+    "natural-language",
+    "theory-of-mind",
+    "human-ai-synergy",
+    "bilateral-modeling"
+  ],
+  "skills": [
+    "./skills/nav-onboard",
+    "./skills/nav-init",
+    "./skills/nav-start",
+    "./skills/nav-stats",
+    "./skills/nav-profile",
+    "./skills/nav-diagnose",
+    "./skills/nav-loop",
+    "./skills/nav-update-claude",
+    "./skills/nav-upgrade",
+    "./skills/nav-install-multi-claude",
+    "./skills/nav-marker",
+    "./skills/nav-compact",
+    "./skills/nav-task",
+    "./skills/nav-sop",
+    "./skills/nav-skill-creator",
+    "./skills/nav-release",
+    "./skills/plugin-slash-command",
+    "./skills/product-design",
+    "./skills/visual-regression",
+    "./skills/frontend-component",
+    "./skills/backend-endpoint",
+    "./skills/database-migration",
+    "./skills/backend-test",
+    "./skills/frontend-test"
+  ]
+}

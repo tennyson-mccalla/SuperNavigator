@@ -1,0 +1,39 @@
+{
+  "name": "supernavigator",
+  "displayName": "SuperNavigator",
+  "version": "6.0.0",
+  "description": "Unified OS + Application Layer for Claude Code Development - Best of Navigator & Superpowers",
+  "longDescription": "SuperNavigator combines Navigator's context engineering (92% token reduction) with Superpowers' TDD workflows into a layered architecture. OS Layer provides session management, Theory of Mind, and Loop Mode. App Layer delivers brainstorming, systematic debugging, code review, and parallel development. Both layers communicate via shared .agent/ data store with implicit integration. Local-first with plugin-ready structure.",
+  "category": "productivity",
+  "tags": [
+    "context-management",
+    "tdd",
+    "workflows",
+    "documentation",
+    "debugging",
+    "code-review",
+    "token-optimization",
+    "layered-architecture"
+  ],
+  "author": "SuperNavigator Contributors",
+  "license": "MIT",
+  "minClaudeCodeVersion": "0.1.0",
+  "changelog": {
+    "6.0.0": {
+      "date": "2026-01-20",
+      "changes": [
+        "Initial SuperNavigator unified release",
+        "Combined Navigator 5.2.0 (OS layer) + Superpowers 4.0.3 (App layer)",
+        "31 total skills (17 OS layer + 14 App layer)",
+        "Layered architecture with implicit integration",
+        "Shared .agent/ data store for cross-layer communication"
+      ],
+      "breaking": [
+        "New layered directory structure (skills/os-layer/ and skills/app-layer/)",
+        "Enhanced .nav-config.json with both layer settings"
+      ]
+    }
+  },
+  "screenshots": [],
+  "documentation": "https://github.com/supernavigator/supernavigator#readme"
+}
