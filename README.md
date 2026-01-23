@@ -1,5 +1,7 @@
 # SuperNavigator
 
+![SUPERNAVIGATOR banner](docs/supernavigator-banner-small.svg)
+
 **Unified OS + Application Layer for Claude Code Development**
 
 Finish What You Start. Sessions that Last. Features that Ship.
