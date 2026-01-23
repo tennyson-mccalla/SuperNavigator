@@ -62,24 +62,21 @@ SuperNavigator combines two powerful frameworks into a unified layered architect
 
 ## Quick Start
 
-### Installation
+### Installation (One Command)
 
-**Local Use** (recommended to start):
-
-```bash
-# Clone or use in current directory
-cd /path/to/your/supernavigator
-```
-
-**Plugin Installation** (future):
+**Install as Claude Code Plugin:**
 
 ```bash
-# Via Claude Code plugin marketplace (when available)
-claude plugin install supernavigator
-
-# Or via natural language in Claude Code
-"Install SuperNavigator plugin"
+claude plugin install https://github.com/dkyazzentwatwa/SuperNavigator
 ```
+
+Then restart Claude Code. All 31 skills available immediately.
+
+**See [Plugin Installation Guide](docs/PLUGIN-INSTALLATION.md) for:**
+- Detailed setup
+- Verification
+- Troubleshooting
+- Managing the plugin
 
 ### Initialize Your Project
 

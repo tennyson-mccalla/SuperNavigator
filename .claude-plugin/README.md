@@ -6,35 +6,19 @@ Unified OS + Application Layer for Claude Code Development.
 
 ### Local Installation
 
-1. **Clone or copy SuperNavigator to your local directory**:
+1. **Install as Claude Code plugin**:
 ```bash
-cd /path/to/your/project
-git clone https://github.com/supernavigator/supernavigator.git
+claude plugin install https://github.com/dkyazzentwatwa/SuperNavigator
 ```
 
-2. **Link as Claude Code plugin** (if using as plugin):
-```bash
-# Link to Claude Code plugins directory
-ln -s $(pwd)/supernavigator ~/.claude/plugins/supernavigator
+2. **Restart Claude Code**
+
+3. **Verify installation** - In Claude Code, say:
+```
+"List available skills"
 ```
 
-3. **Verify installation**:
-```bash
-# Check that skills are recognized
-ls ~/.claude/plugins/supernavigator/skills/
-```
-
-### Plugin Marketplace Installation (Future)
-
-When available on Claude Code plugin marketplace:
-
-```bash
-# Via Claude Code CLI
-claude plugin install supernavigator
-
-# Or via natural language in Claude Code
-"Install SuperNavigator plugin"
-```
+You should see SuperNavigator skills (nav-init, brainstorming, test-driven-development, etc.)
 
 ## Quick Start
 
@@ -166,8 +150,8 @@ After initialization, configure in `.agent/.nav-config.json`:
 
 ## Support
 
-- Issues: https://github.com/supernavigator/supernavigator/issues
-- Discussions: https://github.com/supernavigator/supernavigator/discussions
+- Issues: https://github.com/dkyazzentwatwa/SuperNavigator/issues
+- Discussions: https://github.com/dkyazzentwatwa/SuperNavigator/discussions
 
 ## License
 
