@@ -37,7 +37,7 @@ SuperNavigator combines two powerful frameworks into a unified layered architect
 ┌─────────────────────────────────────────────────────────────┐
 │                    Application Layer                        │
 │  (Superpowers: Workflows, TDD, Debugging, Collaboration)    │
-│                                                              │
+│                                                             │
 │  • brainstorming → writing-plans → executing-plans          │
 │  • test-driven-development → requesting-code-review         │
 │  • systematic-debugging → verification-before-completion    │
@@ -48,9 +48,9 @@ SuperNavigator combines two powerful frameworks into a unified layered architect
                 (Implicit Integration Layer)
                               ↕
 ┌─────────────────────────────────────────────────────────────┐
-│                        OS Layer                              │
+│                        OS Layer                             │
 │  (Navigator: Context, Memory, Sessions, Metrics)            │
-│                                                              │
+│                                                             │
 │  • nav-init → nav-start → nav-loop                          │
 │  • nav-marker → nav-compact (context management)            │
 │  • nav-profile → nav-diagnose (Theory of Mind)              │
@@ -346,11 +346,6 @@ Built on the shoulders of:
 Unified and extended for Claude Code.
 
 ---
-
-## Support
-
-- Issues: https://github.com/supernavigator/supernavigator/issues (future)
-- Discussions: https://github.com/supernavigator/supernavigator/discussions (future)
 
 ## Version
 
