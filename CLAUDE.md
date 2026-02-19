@@ -10,7 +10,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **Architecture**: Layered system with implicit integration via `.agent/` data store
 **Version**: 6.0.0 (Navigator 5.2.0 + Superpowers 4.0.3)
-**Repository**: https://github.com/dkyazzentwatwa/SuperNavigator
+**Repository**: https://github.com/tennyson-mccalla/SuperNavigator
 
 ---
 
@@ -18,7 +18,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Users install SuperNavigator via:
 ```bash
-claude plugin install https://github.com/dkyazzentwatwa/SuperNavigator
+claude plugin marketplace add https://github.com/tennyson-mccalla/SuperNavigator
+claude plugin install supernavigator
 ```
 
 This installs all 31 skills defined in `.claude-plugin/plugin.json`.
@@ -173,7 +174,7 @@ description: Use when [specific triggering conditions]. Third person. Max 500 ch
   "name": "supernavigator",
   "version": "6.0.0",
   "description": "...",
-  "repository": "https://github.com/dkyazzentwatwa/SuperNavigator",
+  "repository": "https://github.com/tennyson-mccalla/SuperNavigator",
   "skills": [
     "./skills/os-layer/core/nav-init",
     "./skills/os-layer/core/nav-start",
@@ -274,7 +275,7 @@ description: Use when initializing SuperNavigator in a new project...
 
 1. Commit changes to main branch
 2. Users update with: `claude plugin update supernavigator`
-3. Or reinstall: `claude plugin install https://github.com/dkyazzentwatwa/SuperNavigator`
+3. Or reinstall: `claude plugin install supernavigator` (after adding marketplace)
 
 ---
 
@@ -360,7 +361,7 @@ From **App Layer** (Superpowers):
 
 ## Support Resources
 
-- GitHub: https://github.com/dkyazzentwatwa/SuperNavigator
+- GitHub: https://github.com/tennyson-mccalla/SuperNavigator
 - Issues: Report bugs and feature requests
 - Discussions: User questions and feedback
 

@@ -67,7 +67,8 @@ SuperNavigator combines two powerful frameworks into a unified layered architect
 **Install as Claude Code Plugin:**
 
 ```bash
-claude plugin install https://github.com/dkyazzentwatwa/SuperNavigator
+claude plugin marketplace add https://github.com/tennyson-mccalla/SuperNavigator
+claude plugin install supernavigator
 ```
 
 Then restart Claude Code. All 31 skills available immediately.

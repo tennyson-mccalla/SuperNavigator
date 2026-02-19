@@ -5,7 +5,8 @@
 From **any project**, install SuperNavigator and get all 31 skills:
 
 ```bash
-claude plugin install https://github.com/dkyazzentwatwa/SuperNavigator
+claude plugin marketplace add https://github.com/tennyson-mccalla/SuperNavigator
+claude plugin install supernavigator
 ```
 
 Then **restart Claude Code**.
@@ -107,7 +108,7 @@ chmod -R 755 ~/.claude/plugins/supernavigator
 
 ## Next Steps
 
-1. Install: `claude plugin install https://github.com/dkyazzentwatwa/SuperNavigator`
+1. Install: Add marketplace and run `claude plugin install supernavigator`
 2. Restart Claude Code
 3. Initialize: `"Initialize SuperNavigator in this project"`
 4. Start: `"Start my SuperNavigator session"`
